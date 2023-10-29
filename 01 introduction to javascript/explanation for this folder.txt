@@ -1,0 +1,6 @@
+What I did/achieved here in this folder :
+
+1. Intro to JS
+2. Two ways of using JS - 
+    - internal linking (writing in script tag only)
+    - external linking (linking external .js file in script tag)
