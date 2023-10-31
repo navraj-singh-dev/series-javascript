@@ -1,0 +1,4 @@
+What I did/achieved here in this folder :
+
+1. variables in javascript
+2. scoping of variables, their tradeoffs and nature.
