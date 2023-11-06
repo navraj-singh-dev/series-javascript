@@ -1,0 +1,6 @@
+What I did/achieved here in this folder :
+    1. simple basic loops in javascript (for, while, do-while)
+
+Note : other advanced loops like : map, filter, foreach will be
+       covered in next folders.
+
