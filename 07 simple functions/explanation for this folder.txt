@@ -1,0 +1,9 @@
+What I did/achieved here in this folder :
+    1. simple function.
+    2. function with no paramters.
+    3. function with predefined parameters.
+    4. function with unlimited parameters,
+       using (...spread, "arguments" object).
+
+Note : advanced functions like callback, arrow, higher-order will be 
+       done in next folders.
