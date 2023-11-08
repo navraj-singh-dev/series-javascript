@@ -1,0 +1,12 @@
+What I did/achieved here in this folder :
+
+    script.js:
+    1. arrow function's : syntax, paramters + arguments
+       and storing it in a variable.
+
+    script_2.js:
+    1. differences between "normal" and "arrow" functions
+        - cant use hoisting in arrow.
+        - cant use "this" in arrow.
+        - cant use "argument" keyword in arrow.
+
