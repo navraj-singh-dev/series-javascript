@@ -1,0 +1,5 @@
+What I did/achieved here in this folder :
+
+    1. Higher Order Functions & CallBack Functions.
+    2. A function that returns another function as output (also called H.O.F).
+    
