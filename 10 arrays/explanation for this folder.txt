@@ -1,0 +1,5 @@
+What I did/achieved here in this folder :
+    1. arrays
+    2. push(), pop(), reverse(), length, indexOf(), slice(),
+       negative indexing, array[index] notation.
+    
