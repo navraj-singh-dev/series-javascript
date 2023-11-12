@@ -1,0 +1,4 @@
+What I did/achieved here in this folder :
+    1. higher order functions in arrays
+    2. forEach(), map(), find(), findIndex(), filter(), splice(), slice(), includes()
+
