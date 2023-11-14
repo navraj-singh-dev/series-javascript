@@ -1,0 +1,56 @@
+<!-- 1. Using "Query Selector" in Javascript -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Query Selector</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <h2>I am navbar</h2>
+    </nav>
+    <hr />
+    <div class="block1">
+      <h3>i am h3 block_1</h3>
+      <p>i am p block_1</p>
+    </div>
+    <hr />
+    <div class="block2">
+      <h3>i am div block_2 <span id="spanned_text">span text</span></h3>
+      <p>i am p block_2</p>
+    </div>
+    <hr />
+
+    <!-- javascript here -->
+    <script>
+      // using Query Selector we can select anything in DOM
+      // can do something with that selected element.
+      const body = document.querySelector("body");
+      //   body.innerHTML = "<h1>Deleted!</h1>"
+      const first_div = document.querySelector("div");
+      //   first_div.innerHTML = "<h2>div one's inner html changed</h2>"
+      const sec_div = document.querySelector("#spanned_text");
+      //   sec_div.innerText = "Jhon Doe"
+      const children_div_1 = document.querySelector(".block1").children;
+      const h3_div_1 = children_div_1[0];
+      const p_div_1 = children_div_1[1];
+      //   h3_div_1.innerText = "h3 got changed";
+      //   p_div_1.innerText = "p got changed";
+    </script>
+  </body>
+</html>
+
+<!-- Points to be remembered for "Query Selector/ Query Selector All" -->
+<!-- 
+    1. "Query Selector" always selects the first tag or class (html -> div1, div2)
+       it will select div1 only.
+    2. "Query Selector All" selects all the elements and put them into a array,
+       using that array we can select a individual element. 
+       eg: array[0], array[1] and so on.
+    3. "Query Selector and Query Selector All" can select DOM elements using three selectors :
+       - using tag name. { document.querySelector("div") }
+       - using class name. { document.querySelector(".some_class_name") }
+       - using id name. { document.querySelector("#some_id_name") }
+ -->

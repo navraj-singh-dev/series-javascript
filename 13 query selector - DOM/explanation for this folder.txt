@@ -1,0 +1,6 @@
+What I did/achieved here in this folder :
+    1. query selector (selecting using : className, idName, tagName),
+       used .children (returns an array), .innerHTML, .innerText
+    2. query selector all (selecting using : className, idName, tagName),
+       used .forEach(), .children, .innerHTML, .innerText
+    
