@@ -1,0 +1,11 @@
+What I did/achieved here in this folder :
+    1. getElementById("id name")
+
+        I will use some new things in this file like :
+            1. adding a css class to a tag
+            2. removing a css class from a tag
+            3. using "classList" from DOM
+            4. using .add(), .remove()
+            5. adding inline-css properties using "style"
+            6. selecting parent element using "parentElement"
+            7. adding attribute to a tag using "setAttribute()"

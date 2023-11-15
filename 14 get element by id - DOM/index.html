@@ -1,0 +1,51 @@
+<!-- Select Element By Id -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select Element By Id</title>
+    <style>
+      .color-red {
+        color: crimson;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <h2>I am navbar</h2>
+    </nav>
+    <hr />
+    <div class="block1">
+      <h3>i am h3 block_1</h3>
+      <p>i am p block_1</p>
+    </div>
+    <hr />
+    <div class="block2">
+      <h3>i am div block_2 <span id="spanned_text">span text</span></h3>
+      <p>i am p block_2</p>
+    </div>
+    <hr />
+
+    <!-- I will use some new things in this file like
+         1. adding a css class to a tag
+         2. removing a css class from a tag
+         3. using "classList" from DOM
+         4. using .add(), .remove()
+         5. adding inline-css properties using "style"
+         6. selecting parent element using "parentElement"
+         7. adding attribute to a tag using "setAttribute()"
+    -->
+    <script>
+      const span_text = document.getElementById("spanned_text");
+      //   span_text.classList.add("color-red");
+      //   span_text.classList.remove("color-red");
+      //   span_text.style.color = "crimson";
+      //   span_text.style.fontFamily = "monospace"
+      //   span_text.parentElement.parentElement.style.backgroundColor = "crimson";
+      //   span_text.setAttribute("attribute", "value")
+      //   span_text.remove();
+    </script>
+  </body>
+</html>
