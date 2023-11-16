@@ -1,0 +1,54 @@
+<!-- get elements by class name -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Elements By ClassName</title>
+    <style>
+      .color-red {
+        color: crimson;
+      }
+      .bg-color-change {
+        background-color: darkslategrey;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <h2>I am navbar</h2>
+    </nav>
+    <hr />
+    <div class="block">
+      <h3>i am h3 block_1</h3>
+      <p>i am p block_1</p>
+    </div>
+    <hr />
+    <div class="block">
+      <h3>i am div block_2 <span id="spanned_text">span text</span></h3>
+      <p>i am p block_2</p>
+    </div>
+    <hr />
+
+    <!-- getElementsByClassName returns a HTMLCollection.
+         Which is a array like structure, but with it
+         we cant use forEach(),map(),filter().
+         With HTMLCollection we can only use simple for loop.
+         So i also used simple for loop, but later converted,
+         that HTMLCollection to a array using Array.from() method.
+         Then i used map() over that new array and it works fine.
+    -->
+    <script>
+      const block_class_html_collection =
+        document.getElementsByClassName("block");
+      const block_class_array = Array.from(block_class_html_collection);
+      for (let i = 0; i < block_class_array.length; i++) {
+        const element = block_class_array[i];
+        element.classList.add("color-red", "bg-color-change");
+        element.classList.remove("color-red", "bg-color-change");
+      }
+      block_class_array.map((e) => e.classList.add("color-red"));
+    </script>
+  </body>
+</html>

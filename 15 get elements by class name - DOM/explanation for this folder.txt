@@ -1,0 +1,11 @@
+What I did/achieved here in this folder :
+
+    1. used getElementsByClassName("class_name_here").
+
+         getElementsByClassName give us a HTMLCollection.
+         Which is a array like structure, but with it
+         we cant use forEach(),map(),filter().
+         With HTMLCollection we can only use simple for loop.
+         So i also used simple for loop, but later converted,
+         that HTMLCollection to a array using Array.from() method.
+         Then i used map() over that new array and it works fine.
