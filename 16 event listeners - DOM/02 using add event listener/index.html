@@ -1,0 +1,35 @@
+<!-- using ADD EVENT LISTENER -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using Event Listener</title>
+  </head>
+  <body>
+    <h2>CHANGE MY COLOR</h2>
+    <button id="button_one">CHANGE COLOR</button>
+
+    <script>
+      // select the elements
+      const h2 = document.querySelector("h2");
+      const h3 = document.querySelector("h3");
+      const button_one = document.getElementById("button_one");
+      const button_two = document.getElementById("button_two");
+
+      // make some functions to be used as callback
+      function do_something() {
+        if (h2.style.color === "crimson") {
+          console.log(h2.style.color);
+          h2.style.color = "blue";
+        } else {
+          h2.style.color = "crimson";
+        }
+      }
+
+      // add event listener method
+      button_one.addEventListener("click", do_something);
+    </script>
+  </body>
+</html>

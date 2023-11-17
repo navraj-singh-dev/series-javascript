@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Not Using Add Event Listener</title>
+  </head>
+  <body>
+    <!-- add a event like onclick, onhover, onkeypress -->
+    <button
+      onclick="console.log('printed using inline javascript')"
+      id="button_one"
+    >
+      Button One
+    </button>
+    <button onclick="print()" id="button_two">Button Two</button>
+
+    <script>
+      function print() {
+        console.log("printed using a function");
+      }
+    </script>
+  </body>
+</html>

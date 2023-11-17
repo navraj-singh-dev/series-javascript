@@ -1,0 +1,6 @@
+What I did/achieved here in this folder :
+    01. listened for events and performed actions without using "addEventListener".
+        - onclick event on button : console Logged it.
+    02. listened for events and performed actions using "addEventListener".
+        - onclick event on button : changed color of H2 tag contents.
+
