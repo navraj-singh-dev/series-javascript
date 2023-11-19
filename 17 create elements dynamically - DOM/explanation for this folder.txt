@@ -1,0 +1,9 @@
+What I did/achieved here in this folder :
+    1. createElement("tag_name")
+    2. appendChild("child_element)
+
+i created a button which listens for a click event
+and then after a click create a new "li" from thin air
+and append it as a child to the container div.
+
+i learned how to dynamically create new elements using javascript.

@@ -1,0 +1,29 @@
+<!-- creating new HTML elements usig javascript dynamically using createElement("tag_name") -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Elements Dynamically</title>
+  </head>
+  <body>
+    <button id="add_element">Add Element</button>
+    <div id="container"></div>
+    <script>
+      // 1. select the elements
+      const container = document.getElementById("container");
+      const button = document.getElementById("add_element");
+
+      // 2. create new HTML element and listen for event
+      let count = 1;
+      button.addEventListener("click", () => {
+        const new_element = document.createElement("li");
+        new_element.innerText = count;
+        // 3. use appendChild() to add element to the container div.
+        container.appendChild(new_element)
+        count++;
+      });
+    </script>
+  </body>
+</html>
