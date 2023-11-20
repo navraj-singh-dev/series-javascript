@@ -1,0 +1,6 @@
+What I did/achieved here in this folder :
+
+    1. promises
+    2. async, await,
+    3. fetch().then().catch().finally()
+    
