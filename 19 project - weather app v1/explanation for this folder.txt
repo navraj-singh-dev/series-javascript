@@ -1,0 +1,11 @@
+What I did/achieved here in this folder :
+    1. i made a project using all the knowledge of previous folders.
+    2. it is a simple weather app that can fetch data from a api and show it on screen.
+    3. interface :
+        1. user add its city
+        2. user clicks button to enter informatin
+        3. city name goes to backend server and using weather api we fetch the data
+        4. data is converted into json and then weather information is shown on screen.
+
+    4. my project implements fetch(), async, await, json(), addEventListener(),
+       getElementById(), Higher Order Functions.
