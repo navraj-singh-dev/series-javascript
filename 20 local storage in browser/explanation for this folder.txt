@@ -1,0 +1,2 @@
+What I did/achieved here in this folder :
+    1. localStoage object in javascript and browsers.
