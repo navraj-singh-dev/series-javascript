@@ -1,0 +1,4 @@
+What I did/achieved here in this folder :
+    1. i made a clock
+    2. learned how to use setInterval(), clearInterval(), setTimeout()
+
