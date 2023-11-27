@@ -1,0 +1,3 @@
+What I did/achieved here in this folder :
+    1. learned composition
+    2. learned : reduce method, got revision of : rest, spread operator. 
