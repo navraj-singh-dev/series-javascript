@@ -1,0 +1,4 @@
+What I did/achieved here in this folder :
+    1. iterators (here i learned object literals also (omit ":" and "function" keyword))
+    2. generators functions (function* and yield)
+    
